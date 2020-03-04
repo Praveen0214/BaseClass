@@ -34,8 +34,9 @@ Thread.sleep(3000);
 WebElement country = driver.findElement(By.xpath("//select[@id='continents']"));
 click(country);
 select(country);
-WebElement country = driver.findElement(By.xpath("//select[@id='continents']"));
-
+//WebElement country = driver.findElement(By.xpath("//select[@id='continents']"));
+//select(country);
+select(country);
 
 
 	
